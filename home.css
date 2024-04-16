@@ -1,0 +1,190 @@
+body{
+    background-color: #39289F;
+    background-image: url(Imagens/joy_stick\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.Imagens{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 200px;
+    padding-right: 200px;
+    flex-shrink: 20px;
+}
+
+
+
+
+.logo{
+    display: flex;
+    flex-direction: row ;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    padding-left: 20px;
+    
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row-reverse ;
+    color: white;
+    flex-shrink: 20px;
+    padding-right: 10px;
+    
+}
+
+.cor{
+    text-decoration: none;
+    color: white;
+    padding-right: 70px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.decBu{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.contact{
+    background-color: #FA9021;
+    border-radius: 6px;
+    width: 150px ;
+    height: 40px;
+    
+
+}
+
+.joy{
+    display: flex;
+    flex-direction: row-reverse;
+    top: 30px;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.Part1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 600px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+
+}
+
+.Proved{
+    color:#E87D0E ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: black;
+    font-size: 36px;
+    
+
+    
+}
+
+.Work{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+}
+
+.pPart1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.details{
+    background-color: #FA8305;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Part2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 100px;
+    margin-right: 50px;
+   
+    
+}
+
+.CutreGames{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seeAll{
+    margin-right: 50px;
+}
+
+.imgJogos{
+   display: flex;
+   min-width: 200px;
+   flex-flow: row wrap;
+   justify-content: center;
+   justify-content: space-between;
+   margin: 100px;
+}
+
+.rec{
+    margin: 50px;
+}
+
+.loremMeio{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.Lorem{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.pLorem{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lorem1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 100px;
+    margin-right: 50px;
+    width: 500px;
+}
+
+.Rec4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.ponto{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 500px;
+}

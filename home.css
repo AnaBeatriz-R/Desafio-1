@@ -5,6 +5,7 @@ body{
     background-position-x: right;
 }
 
+
 .Imagens{
     display: flex;
     flex-direction: row-reverse;
@@ -14,13 +15,12 @@ body{
 }
 
 
-
-
 .logo{
     display: flex;
     flex-direction: row ;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    font-family:'Poppins', sans-serif;
     margin-top: 30px;
     padding-left: 20px;
     
@@ -38,19 +38,22 @@ body{
 .cor{
     text-decoration: none;
     color: white;
-    padding-right: 70px;
+    font-size: 16px;
+    padding-right: 55px;
     padding-top: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
+
 }
 
 .decBu{
     text-decoration: none;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 
 .contact{
+    border-color:#FA9021 ;
     background-color: #FA9021;
     border-radius: 6px;
     width: 150px ;
@@ -81,8 +84,9 @@ body{
 }
 
 .Proved{
+    
     color:#E87D0E ;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
     border-color: black;
     font-size: 36px;
     
@@ -92,55 +96,104 @@ body{
 
 .Work{
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 80px;
 }
 
 .pPart1{
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .details{
     background-color: #FA8305;
-    height: 50px;
-    width: 150px;
+    height: 53px;
+    width: 195px;
+    margin-top: 50px;
+    border-color:#FA8305 ;
     border-radius: 20px;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.CutreGames{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 600px;
+    padding-left: 80px;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-size: 35px;
 }
 
 .Part2{
+    padding-bottom: 50px;
+    
+}
+.Part2_h2But{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    align-items: flex-start;
-    padding-left: 100px;
-    margin-right: 50px;
-   
-    
+    justify-content: space-between;
 }
 
-.CutreGames{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.buttonSee{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 150px;
 }
+
 
 .seeAll{
-    margin-right: 50px;
+    
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    color: white;
+    border-color: #4d3da2;
+    background-color: #4d3da2;
 }
 
 .imgJogos{
-   display: flex;
-   min-width: 200px;
-   flex-flow: row wrap;
-   justify-content: center;
-   justify-content: space-between;
-   margin: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
 }
 
-.rec{
-    margin: 50px;
+.fire{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.fire2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px ;
+}
+
+.Foll{
+    font-size: 22px;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+}
+
 
 .loremMeio{
     display: flex;
@@ -148,14 +201,14 @@ body{
     justify-content: center;
     color: white;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     align-items: center;
 }
 
 .Lorem{
     font-size: 30px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
 
 
 }
@@ -163,7 +216,7 @@ body{
 .pLorem{
     color: white;
     font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
 .lorem1{
@@ -196,92 +249,114 @@ body{
     background-position-x: center;
     background-repeat: no-repeat;
     
-    
-    
 }
 
 .imagBol{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding-left: 250px;
-    padding-right: 50px;
     padding-top: 100px;
 }
 
 .imagBol2{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 50px;
-    padding-left: 500px;
-    padding-top: 70px;
-    padding-bottom: 100px; 
+    padding-bottom: 200px; 
 }
 
 .imgProj{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
     justify-content: space-between;
-    padding-left: 10px;
     padding-bottom: 50px;
+    width: 1170px;
+    height: 278px;
 }
 
 .Part4{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding-left: 190px;
-    padding-bottom: 100px;
-    width: 1150px;
-    height:478px ;
+    padding-bottom: 200px;
 }
 
 
 .h1par3{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    padding-left: 250px;
-    padding-top: 70px;
-    font-size: 25px ;
+    justify-content: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+.titulo_Part3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    
 }
 
 .p_part3{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    padding-left: 250px;
+    justify-content: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.bol{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 50px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.spaceBol{
+    margin: 30px;
 }
 
 .h1part4{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    padding-left: 590px;
-    padding-top: 70px;
-    font-size: 30px ;
+    justify-content: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
 }
 
+.buttonPart4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 105px;
 
+}
 .p_part4{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    padding-left: 490px;
+    justify-content: center;
+    font-size: 14px;
     color: white;
     padding-bottom: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button_part4{
@@ -289,7 +364,10 @@ body{
     height: 57px;
     border-radius: 10px;
     color: white;
+    border-color: #4d3da2;
     background-color: #4d3da2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 .lorem2{
@@ -297,6 +375,7 @@ body{
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-bottom: 74px;
     padding-left: 100px;
     margin-right: 50px;
     width: 500px; 
@@ -305,13 +384,13 @@ body{
 .h1part5{
     font-size: 30px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .p_part5{
     color: white;
     font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
 .Stay{
@@ -319,8 +398,8 @@ body{
     flex-direction: row;
     padding-top: 10px;
     justify-content: space-around;
-    width: 1170px;
-    height: 159px;
+    width: 1270px;
+    height: 189px;
     background-color:#1C140F ;
     border-radius:15px ;
 }
@@ -334,6 +413,7 @@ body{
 }
 
 .Part5{
+    padding-bottom: 200px;
     padding-left: 100px;
     margin-right: 50px;
     
@@ -342,26 +422,29 @@ body{
 .h3_part5{
     color: white;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .p2_part5{
     color: white;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
     width: 500px;
 }
 
 .button_part5{
     border-radius:8px ;
     background-color: #FA9021;
+    border-color: #FA9021;
+    font-family: 'Poppins', sans-serif;
+    color: white;
     width: 105px;
     height: 44px;
 }
 
 .input2{
     font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 8px;
     outline: none;
     width: 305.68px;
@@ -369,10 +452,74 @@ body{
 }
 
 footer{
-    /* background-color: black; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    justify-content: space-between;
+    background-color: black;
     height: 376px;
 }
 
 .footer_logo{
+    font-family: 'Poppins', sans-serif;
     color: white;
+}
+
+.P_footer{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo_p1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    height: 376px;
+}
+
+.About_footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 90px;
+    height: 376px;
+}
+
+.Contact{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 200px;
+    height: 376px;
+}
+
+.P_footerT{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.imagRedeSocial{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 230px;
+    align-items: center;
+
+}
+
+
+
+.Copyright{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid white;
 }

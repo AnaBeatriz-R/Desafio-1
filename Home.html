@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,31 +10,33 @@
 <body>
     <header>
         <nav>
-            <h1 class="logo">LOGO</h1>
+            <div class="logo1"><h1 class="logo">LOGO</h1></div>
             <div class="nav-bar">
-                <button class="contact"><a href="Contactus" class="decBu">Contactus us</a></button>
-                <a href="news" class="cor">News</a>
-                <a href="Portifolio" class="cor">Portifolio</a>
-                <a href="about-us" class="cor">About us</a>
-                <a href="home" class="cor">Home</a>
+                <ul>
+                    <li><a href="Home.html" class="cor">Home</a></li>
+                    <li><a href="paginaErro.html" class="cor">About us</a></li>
+                    <li> <a href="paginaErro.html" class="cor">Portifolio</a></li>
+                    <li><a href="paginaErro.html" class="cor">News</a></li>
+                    <li><button class="contact"><a href="Contact_us.html" class="decBu">Contactus us</a></button></li>
+                </ul>
             </div>  
         </nav>
-        
-        <body>
+    </header>
+        <main>
+            <div class="imgComponent"><img src="Imagens/Component 1.png" alt="" class="imgCom"></div>
             <div class="Part1">
+                <div class="imgComponent"></div>
                 <h3 class="Proved">Proved By prodesigner</h3>
                 <h1 class="Work">Work that we produce for our clients</h1>
                 <p class="pPart1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, neque odit nemo reprehenderit et voluptatum hic corporis tempore eligendi sit aperiam, distinctio vero dolores sequi, in totam! Eius, asperiores aperiam?</p>
-                <button class="details">Get more details</button>
+               <div class="Detail1"><button class="details"><a href="paginaErro.html" class="ButtoErro">Get more details</a></button></div> 
+               
             </div>
             <div class="Part2">
-                <div class="Part2_h2But">
                     <h2 class="CutreGames">Currently Trending Games</h2> 
                    <div class="buttonSee">
-                    <button class="seeAll">SEE ALL</button>
-                   </div>
+                    <button class="seeAll"><a href="paginaErro.html" class="ButtoErro">SEE ALL</a></button>
                 </div>
-               
             </div>
             <div class="imgJogos">
                 <div class="Rec"><img src="Imagens/Rectangle 23.png" alt=""><div class="fire"><img src="Imagens/fire 1.png" alt="" class="fire2" ><p class="Foll">40 Followers</p></div></div>
@@ -42,8 +44,7 @@
                 <div class="Rec"><img src="Imagens/Rectangle 25.png" alt=""><div class="fire"><img src="Imagens/fire 1.png" alt="" class="fire2" ><p class="Foll">40 Followers</p></div></div>
                 <div class="Rec"> <img src="Imagens/Rectangle 26.png" alt=""><div class="fire"><img src="Imagens/fire 1.png" alt="" class="fire2" ><p class="Foll">40 Followers</p></div></div>
             </div>
-          
-            <h1 class="loremMeio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1>
+            <div class="loremMeio1"><h1 class="loremMeio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1></div>
             <br>
             <br>
             <div class="lorem1">
@@ -52,7 +53,7 @@
                 </p>
             </div>
             <div class="ponto"><img src="Imagens/Group 21.png" alt=""></div>
-            <div class="Rec4"><img src="Imagens/Rectangle 4.png" alt=""></div>
+            <div class="Rec4"><img src="Imagens/Rectangle 4.png" alt="" class="img_homemAranha"></div>
             <div class="Part3">
                 <div class="titulo_Part3">
                     <h1 class="h1par3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
@@ -82,7 +83,7 @@
                 </div>
             </div>
             <div class="buttonPart4">
-                <button class="button_part4">SEE ALL</button>
+                <button class="button_part4"><a href="paginaErro.html" class="ButtoErro">SEE ALL</a></button>
             </div>
             <div class="lorem2">
                 <h1 class="h1part5">Lorem Ipsum</h1>
@@ -95,45 +96,52 @@
                         <p class="p2_part5">Subscribe to receive the latest news and updates about TDA.
                         We promise not to spam you! </p>
                     </div>
-                    <form action="/submit" method="post" class="inputStay">
-                        <button type="submit" class="button_part5">Continue</button>
-                        <input type="text" class="input2" placeholder="Enter email address"> 
-                    </form>
+                    <div class="form-crontol">
+                        <form autocomplete="off" id="#form" class="inputStay">
+                            <div class="formInput"><input type="text" id="email" class="input2 " placeholder="Enter email address">
+                            <small id="textEmail">Email incorreto</small> 
+                            </div>
+                            <div class="formButton"><button type="submit" class="button_part5" id="enviar">Continue</button>
+                            <small id="textForm"></small>
+                            </div>
+                            <p id="mostrar"></p>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <footer>
-                <div class="logo_p1">
-                    <h1 class="footer_logo">LOGO</h1>
-                    <p class="P_footer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                    <p class="P_footer">@Logo</p>
-                </div>
-                <div class="About_footer">
-                    <p class="P_footerT">About us</p>
-                    <p class="P_footer">
-                        Zeux
-                        Portfolio
-                        Careers
-                        Contact us</p>
-                </div>
-                <div class="Contact">
-                    <p class="P_footerT">Contact us</p>
-                    <p class="P_footer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                    <p class="P_footer">+908 89097 890</p>
-                </div>
-                <div class="imagRedeSocial">
-                    <div class="Rede"><a href="https://pt-br.facebook.com/"><img src="Imagens/Group 5.png" alt=""></a></div>
-                    <div class="Rede"><a href="https://www.linkedin.com/"><img src="Imagens/Group 9.png" alt=""></a></div>
-                    <div class="Rede"><a href="https://twitter.com/x."><img src="Imagens/Group 10.png" alt=""></a></div>
-                    <div class="Rede"><a href="https://www.instagram.com/"><img src="Imagens/Group 11.png" alt=""></a></div>
-                </div>
-                
-                
-            </footer>
-            <div class="Copyright">
-                <p class="P_footer">Copyright ® 2022 prodesigner All rights Rcerved</p>
+           
+        </main>
+        <footer>
+            <div class="logo_p1">
+                <h1 class="footer_logo">LOGO</h1>
+                <p class="P_footer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <p class="P_footer">@Logo</p>
+            </div>
+            <div class="About_footer">
+                <p class="P_footerT">About us</p>
+                <p class="P_footer">
+                    Zeux
+                    Portfolio
+                    Careers
+                    Contact us</p>
+            </div>
+            <div class="Contact">
+                <p class="P_footerT">Contact us</p>
+                <p class="P_footer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <p class="P_footer">+908 89097 890</p>
+            </div>
+            <div class="imagRedeSocial">
+                <div class="Rede"><a href="https://pt-br.facebook.com/"><img src="Imagens/Group 5.png" alt=""></a></div>
+                <div class="Rede"><a href="https://www.linkedin.com/"><img src="Imagens/Group 9.png" alt=""></a></div>
+                <div class="Rede"><a href="https://twitter.com/x."><img src="Imagens/Group 10.png" alt=""></a></div>
+                <div class="Rede"><a href="https://www.instagram.com/"><img src="Imagens/Group 11.png" alt=""></a></div>
             </div>
             
-        </body>
-    </header>
+        </footer>
+        <div class="Copyright">
+            <p class="P_footer">Copyright ® 2022 prodesigner All rights Rcerved</p>
+        </div>
+        <script src="home.js"></script>
+    
 </body>
 </html>
